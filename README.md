@@ -11,7 +11,7 @@
 - Automatically handles pagination and retries failed requests.
 - Data is saved in structured CSV files for easy access and analysis.
 - Error handling and user-agent rotation to avoid detection by websites.
-  
+
 ## Technologies Used
 
 - **Python**: For writing the scraping scripts.
@@ -19,7 +19,19 @@
 - **Requests**: For sending HTTP requests to e-commerce websites.
 - **Pandas**: For organizing and saving scraped data into CSV files.
 - **Git**: For version control.
-  
+
+## Project Files
+
+- `.gitignore`: Specifies files and directories that should be ignored by Git (e.g., temporary files, unnecessary data).
+- `LICENSE`: The project license file, licensed under Apache License 2.0.
+- `README.md`: The project documentation you're currently reading.
+- `Scrape.ipynb`: The Jupyter notebook containing the scraping code and execution.
+- `final_product_details.xls`: Contains the scraped product details from Flipkart and Amazon.
+- `final_product_details_with_links.xls`: Contains product details along with their respective links.
+- `flipkart_mobiles.xls`: Contains mobile product data scraped from Flipkart.
+- `flipkart_mobiles_combined.xls`: The combined data from all Flipkart mobile pages.
+- `products.xls`: A file containing product data ready for price comparison.
+
 ## Setup and Installation
 
 1. Clone the repository:
@@ -52,4 +64,4 @@ Feel free to fork this repository and submit pull requests for any new features 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License, Version 2.0. See the [LICENSE](LICENSE) file for details.
