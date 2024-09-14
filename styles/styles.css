@@ -1,3 +1,19 @@
+.pricewise-logo {
+    font-family: 'Arial', sans-serif; /* Simple, clean font */
+    font-size: 28px; /* Larger font for emphasis */
+    font-weight: bold; /* Bold to make it stand out */
+    color: #333; /* Dark gray for a modern look */
+    text-decoration: none; /* No underline */
+    position: absolute; /* Position in the corner */
+    top: 20px; /* Distance from the top */
+    left: 20px; /* Distance from the left */
+}
+
+.pricewise-logo:hover {
+    color: #4CAF50; /* Slight color change on hover */
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
 :root {
     --primary-color: #3498db;
     --secondary-color: #2c3e50;
