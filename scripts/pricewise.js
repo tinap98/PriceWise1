@@ -3,7 +3,7 @@ let mobiles = [];
 async function loadLocalData() {
     try {
         console.log('Attempting to load local data...');
-        const response = await fetch('/home/sisirak2023/pricewise/mobile_data.json');
+        const response = await fetch('pricewise/mobile_data.json');
 
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
